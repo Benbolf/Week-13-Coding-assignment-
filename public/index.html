@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Week 13 Lab" />
+    <title>Week 13 React App</title>
+  </head>
+  <body>
+    
+    <div id="root"></div>
+    <div class="button">
+      <button class="btn login">Login</button>
+  <div style="text-align: center;">
+      <div class="popup">
+          <div class="popup-content">
+              <img scr="close.png" alt="Close" class="close">
+              <input type="text" placeholder="username">
+              <input type="password" placeholder="password">
+              <a href="#" class="button">Login</a>
+          </div>
+      </div>
+
+
+      <script>                        
+      document.getElementByID("button").addEventListener("click", function(){
+          document.querySelector(".popup").style.display = "flex" ; 
+      })
+      
+
+      document.querySelector(".close").addEventListener("click", function(){
+          document.querySelector(".popup").style.diplay = "none";  
+
+      })
+</div>
+      
+      </script>
+  </div>
+</div>
+</div>
+  
+  </body>
+
+</html>
